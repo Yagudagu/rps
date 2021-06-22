@@ -13,6 +13,7 @@ app.get("/", (req, res) => {
 });
 
 // remembering git
+// so this works right?
 
 const port = process.env.PORT || 3000;
 

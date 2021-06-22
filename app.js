@@ -12,9 +12,6 @@ app.get("/", (req, res) => {
   res.end(htmlHome);
 });
 
-// remembering git
-// so this works right?
-
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {

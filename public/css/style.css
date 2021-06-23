@@ -3,13 +3,28 @@ h1 {
   color: red;
 }
 
-ion-icon {
-  font-size: 64px;
+h2 {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 60%;
+  background-color: grey;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 ul {
-  padding-top: 50%;
-  padding-left: 15%;
+  align-items: center;
+  text-align: center;
+}
+
+ion-icon {
+  font-size: 64px;
+  display: block;
+  margin: 0;
 }
 
 .red-border {

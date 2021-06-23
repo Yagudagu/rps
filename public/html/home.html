@@ -8,20 +8,37 @@
       rel="stylesheet"
       type="text/css"
     /> -->
+
     <script
       src="https://unpkg.com/@ionic/core@latest/dist/ionic/ionic.js"
       defer
     ></script>
-    <!-- <script src="index.js" defer></script> -->
+    <script src="index.js" defer></script>
   </head>
   <body>
     <header></header>
     <h1>Let's play some RPS Motherfucker!!!</h1>
-    <ul>
-      <ion-icon name="cut-outline" class="red-border"></ion-icon>
-      <ion-icon name="bowling-ball" class="red-border"></ion-icon>
-      <ion-icon name="documents-outline" class="red-border"></ion-icon>
-    </ul>
+
+    <div class="buttons">
+      <h2 id="message-bar">Choose wisely</h2>
+      <ul>
+        <ion-icon
+          name="cut-outline"
+          class="red-border"
+          id="button-scissors"
+        ></ion-icon>
+        <ion-icon
+          name="bowling-ball"
+          class="red-border"
+          id="button-rock"
+        ></ion-icon>
+        <ion-icon
+          name="documents-outline"
+          class="red-border"
+          id="button-paper"
+        ></ion-icon>
+      </ul>
+    </div>
 
     <!-- <i class="ion-ios-plus-outline">Anything?</i>
     <button class="btn-scissors">
